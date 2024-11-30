@@ -21,39 +21,50 @@ function ContactUs() {
               <form className="flex flex-col gap-6">
                 <Animate>
                   <div className="flex flex-col gap-1">
-                    <label htmlFor="">Full Name</label>
+                    <label htmlFor="name">Full Name</label>
                     <input
                       type="text"
+                      name="name"
+                      id="name"
                       className="px-4 py-2 text-black font-medium rounded-md"
+                      autoComplete="on"
                       required
                     />
                   </div>
                 </Animate>
                 <Animate>
                   <div className="flex flex-col gap-1">
-                    <label htmlFor="">Email Address</label>
+                    <label htmlFor="email">Email Address</label>
                     <input
-                      type="text"
+                      type="email"
+                      name="email"
+                      id="email"
                       className="px-4 py-2 text-black font-medium rounded-md"
+                      autoComplete="on"
                       required
                     />
                   </div>
                 </Animate>
                 <Animate>
                   <div className="flex flex-col gap-1">
-                    <label htmlFor="">Mobile Number</label>
+                    <label htmlFor="phone">Mobile Number</label>
                     <input
-                      type="text"
+                      type="tel"
+                      name="phone"
+                      id="phone"
                       className="px-4 py-2 text-black font-medium rounded-md"
+                      autoComplete="on"
                       required
                     />
                   </div>
                 </Animate>
                 <Animate>
                   <div className="flex flex-col gap-1">
-                    <label htmlFor="">Message</label>
+                    <label htmlFor="msg">Message</label>
                     <textarea
                       type="text"
+                      name="msg"
+                      id="msg"
                       className="px-4 py-2 text-black font-medium rounded-t-md rounded-l-md"
                     />
                   </div>

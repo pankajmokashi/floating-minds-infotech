@@ -78,7 +78,7 @@ const TestimonialCarousel = () => {
           exit={{ opacity: 0 }}
           key={seconds}
         >
-          <div className="min-h-[275px] w-full max-w-xl text-center mb-4 transition-opacity duration-1000 ease-in-out">
+          <div className="min-h-[275px] w-full max-w-xl text-center mb-6 transition-opacity duration-1000 ease-in-out">
             <img
               src={testimonials[currentIndex].image}
               alt={testimonials[currentIndex].name}
