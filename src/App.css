@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap");
+
+.App {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-style: normal;
+}
+
+.gradient {
+  background: rgb(48, 159, 145);
+  background: linear-gradient(
+    68deg,
+    rgba(48, 159, 145, 1) 0%,
+    rgba(100, 196, 203, 1) 50%,
+    rgba(9, 154, 191, 1) 100%
+  );
+}
